@@ -29,3 +29,4 @@ This project aims to prevent credit card fraud and minimize financial losses by 
 
 - ChatGPT for providing assistance and guidance throughout the project.
 - ["Machine Learning & AI Tutorial - Credit Card Fraud Detection"](https://www.youtube.com/watch?v=frM_7UMD_-A) by Krish Naik on YouTube for inspiration and insights.
+- ["Credit Card Fraud Detection"](https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud) to access dataset and further description of the case.
