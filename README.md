@@ -19,7 +19,7 @@ This project aims to prevent credit card fraud and minimize financial losses by 
 
 ## How to Use
 
-1. Clone this repository: `git clone https://github.com/your-username/credit-card-fraud-detection.git`
+1. Clone this repository: `git clone https://github.com/your-username/fraud-detection.git`
 2. Install required dependencies: `pip install -r requirements.txt`
 3. Explore the Jupyter notebooks in the `notebooks` directory to understand the data analysis and model evaluation process.
 4. Navigate to the `app` directory and run `python app.py` to start the Flask API locally.
