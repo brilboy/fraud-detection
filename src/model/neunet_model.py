@@ -4,9 +4,9 @@ from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import StandardScaler
 from sklearn.metrics import classification_report, accuracy_score
 from tensorflow import keras
-from tensorflow.keras import layers
+from keras import layers
 from sklearn.utils import compute_class_weight
-from tensorflow.keras.callbacks import ModelCheckpoint
+from keras.callbacks import ModelCheckpoint
 
 # Load Data
 data = pd.read_csv('src\data\creditcard.csv')
@@ -16,7 +16,7 @@ X = data.drop('Class', axis=1)
 y = data['Class']
 
 # Splitting the dataset into training and testing sets
-X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42, stratify=y)
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.1, random_state=42, stratify=y)
 
 # Standardize the data
 scaler = StandardScaler()

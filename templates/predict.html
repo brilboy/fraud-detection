@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Fraud Detection Prediction</title>
+</head>
+<body>
+    <h1>Fraud Detection Prediction</h1>
+    <form method="POST" action="/predict">
+        <label for="Time">Time of Transaction:</label>
+        <input type="text" id="Time" name="Time" required><br><br>
+
+        <label for="Amount">Amount of Transaction:</label>
+        <input type="text" id="Amount" name="Amount" required><br><br>
+
+        <button type="submit">Predict</button>
+    </form>
+    
+    <h2>Predictions:</h2>
+    <p>Isolation Forest Prediction: {{ iso_label }}</p>
+    <p>Gradient Boosting Prediction: {{ iso_label }}</p>
+    <p>Neural Network Prediction: {{ iso_label }}</p>
+</body>
+</html>
